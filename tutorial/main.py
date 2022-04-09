@@ -3,7 +3,10 @@
  >> fastapi 서버 실행하기
 
    $ uvicorn main:app --reload
+
    1. main은 파일명을 가리킴
+   2. app 은 FastAPI() 라인에서 생성한 object
+   3. --reload : 코드 변경 후 서버 재시작 (개발시에만 사용할 것)
 
 
 """
